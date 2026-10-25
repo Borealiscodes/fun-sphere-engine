@@ -246,6 +246,14 @@
   "category": "docs",
   "commit": "📘 docs: add Appendix B — Operator Algebra (Phase‑D Appendix Scaffold)"
 },
+{
+  "task": "Appendix C — Holonomy & Curvature",
+  "file": "docs/preprint/appendix-holonomy.tex",
+  "status": "completed",
+  "wave": "D",
+  "category": "docs",
+  "commit": "📘 docs: add Appendix C — Holonomy & Curvature (Phase‑D Appendix Scaffold)"
+},
       }
     ]
   }
