@@ -99,6 +99,7 @@ A → C avoids this failure mode.
 Populate the repository in two waves:
 
 Wave A — Minimal Spine
+<pre>
 `
 engine/state.py
 engine/operators.py
@@ -106,9 +107,12 @@ engine/laplacian.py
 engine/holonomy.py
 engine/physics.py
 `
+</pre>
 
 Wave C — Hybrid Uplift
 `
+<pre>
+  
 runtime/server.py
 runtime/client.py
 world/zones.py
@@ -122,6 +126,8 @@ docs/architecture.md
 docs/anthology/fun-sphere-uplift-anthem-v2.0.md
 docs/provenance.md
 README.md
+
+</pre>
 `
 
 This two‑wave population ensures coherent evolution, stable foundations, and clean extensibility.
