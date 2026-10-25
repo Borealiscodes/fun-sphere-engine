@@ -1,4 +1,4 @@
-{
+p{
   "fun_sphere_engine_tasks": {
     "wave_A": [
       {
@@ -126,6 +126,13 @@
   "category": "tests",
   "wave": "T"
 },
+{
+  "file": "tests/test_holonomy.py",
+  "status": "done",
+  "commit": "🧪 tests: add holonomy curvature loop invariance tests (Wave‑T File #4)",
+  "category": "tests",
+  "wave": "T"
+},9
       }
     ]
   }
