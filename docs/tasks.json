@@ -217,6 +217,14 @@
   "category": "math",
   "wave": "D"
 },
+{
+  "file": "docs/preprint/preprint.md",
+  "status": "done",
+  "commit": "📘 docs: add Preprint Scaffold (Phase‑D Assembly Framework)",
+  "category": "docs",
+  "wave": "D"
+},
+      
       }
     ]
   }
