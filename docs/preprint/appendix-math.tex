@@ -1,0 +1,153 @@
+\appendix
+\section*{Appendix A — Mathematical Foundations}
+\addcontentsline{toc}{section}{Appendix A — Mathematical Foundations}
+
+\section{Preliminaries}
+
+\subsection{State Manifold}
+Let $\mathcal{M}$ denote the Fun–Sphere narrative manifold. Each point
+$p \in \mathcal{M}$ carries scalar fields $f(p)$, vector fields $v(p)$,
+curvature annotations $\kappa(p)$, and spectral fields $\lambda(p)$.
+These fields collectively define the geometric state structure used
+throughout the engine.
+
+\subsection{Operator Group}
+Operators are reversible transformations
+\[
+O : \mathcal{S} \rightarrow \mathcal{S},
+\qquad
+O^{-1} \text{ exists},
+\]
+acting on the state space $\mathcal{S}$. Operators form a group under
+composition, with identity $I$ and inverses $O^{-1}$.
+
+\subsection{Holonomy and Curvature}
+Holonomy arises from non–commutative operator pairs. For operators
+$O_i, O_j$,
+\[
+\Delta_{\mathrm{hol}}(O_i, O_j)
+    = (O_j \circ O_i) - (O_i \circ O_j),
+\]
+defines the fundamental curvature tensor of the engine. Curvature
+accumulates along operator paths and induces frame shifts.
+
+\subsection{Laplacian Geometry}
+The discrete Laplacian is defined as
+\[
+L = D - W,
+\]
+where $D$ is the degree matrix and $W$ is the curvature–aware adjacency
+matrix. The Laplacian is symmetric and positive semi–definite, admitting
+eigenpairs $(\lambda_k, u_k)$.
+
+\subsection{Spectral Ecology}
+Eigenvectors $u_k$ represent monster families, while eigenvalues
+$\lambda_k$ represent ecological energy levels. Curvature perturbs the
+Laplacian, producing spectral drift:
+\[
+\lambda_k' = \lambda_k + \delta \lambda_k,
+\qquad
+u_k' = u_k + \delta u_k.
+\]
+
+\subsection{Reversible Quest Algebra}
+A reversible quest is an operator path
+\[
+\gamma = (O_1, O_2, \ldots, O_n),
+\]
+with forward traversal $\gamma(s)$ and reverse traversal
+$\gamma^{-1}(s)$. State reversibility holds, but curvature and frame
+shifts do not reverse.
+
+\section{Definitions}
+
+\begin{definition}[State Space]
+The state space $\mathcal{S}$ is the set of all valid Fun–Sphere engine
+states, each containing scalar, vector, spectral, and curvature fields.
+\end{definition}
+
+\begin{definition}[Reversible Operator]
+An operator $O$ is reversible if there exists $O^{-1}$ such that
+\[
+O^{-1}(O(s)) = s
+\]
+for all $s \in \mathcal{S}$.
+\end{definition}
+
+\begin{definition}[Holonomy Tensor]
+The holonomy tensor $H$ is defined by
+\[
+H_{ij} = \Delta_{\mathrm{hol}}(O_i, O_j),
+\]
+and measures curvature induced by operator non–commutativity.
+\end{definition}
+
+\begin{definition}[Quest Curvature]
+For a path $\gamma = (O_1, \ldots, O_n)$,
+\[
+K(\gamma) = \sum_{i < j} H_{ij}
+\]
+is the total curvature accumulated along the quest.
+\end{definition}
+
+\section{Theorems}
+
+\begin{theorem}[Positive Semi–Definiteness of the Laplacian]
+For any vector $x$,
+\[
+x^\top L x \ge 0.
+\]
+\end{theorem}
+
+\begin{proof}
+Since $L = D - W$ with $W$ symmetric and $D$ diagonal with non–negative
+entries, the quadratic form expands to
+\[
+x^\top L x = \sum_{i < j} w_{ij} (x_i - x_j)^2 \ge 0.
+\]
+\end{proof}
+
+\begin{theorem}[State Reversibility of Quests]
+For any quest path $\gamma$ and state $s$,
+\[
+\gamma^{-1}(\gamma(s)) = s.
+\]
+\end{theorem}
+
+\begin{proof}
+By definition,
+\[
+\gamma(s) = O_n(\cdots O_2(O_1(s))\cdots),
+\]
+and
+\[
+\gamma^{-1}(s) = O_1^{-1}(O_2^{-1}(\cdots O_n^{-1}(s)\cdots)).
+\]
+Since $O_i^{-1}(O_i(s)) = s$ for all operators, the composition of
+inverses in reverse order restores the original state.
+\end{proof}
+
+\begin{theorem}[Non–Reversibility of Curvature]
+Let $\gamma$ be a quest path. Then
+\[
+K(\gamma^{-1}) \neq -K(\gamma),
+\]
+and in general curvature does not reverse.
+\end{theorem}
+
+\begin{proof}
+Curvature depends on operator non–commutativity:
+\[
+H_{ij} = (O_j \circ O_i) - (O_i \circ O_j).
+\]
+Reversing the path changes the order of operators but does not negate
+the holonomy tensor. Thus curvature accumulates independently of state
+reversibility.
+\end{proof}
+
+\section{Discussion}
+This appendix establishes the formal mathematical foundations required
+for the operator algebra, holonomy curvature, Laplacian geometry,
+spectral ecology, and reversible quest dynamics presented in the main
+preprint. Subsequent appendices provide detailed proofs, extended
+derivations, and formal verification artifacts.
