@@ -34,9 +34,9 @@
   "commit": "🗺️ feat: add base world topology scaffold (Wave‑C File #1)"
       },
       {
-        "file": "world/zones.py",
-        "status": "pending",
-        "commit": null
+  "file": "world/zones.py",
+  "status": "done",
+  "commit": "🌐 feat: add holonomy-aware zone registry (Wave‑C File #2)"
       },
       {
         "file": "world/factions.py",
