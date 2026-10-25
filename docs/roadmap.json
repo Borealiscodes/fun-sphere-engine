@@ -1,0 +1,45 @@
+{
+  "fun_sphere_engine_roadmap": {
+    "phase_A_minimal_geometric_spine": {
+      "description": "Populate the pure geometric substrate before any world, UI, or runtime logic.",
+      "files": [
+        "engine/state.py",
+        "engine/operators.py",
+        "engine/laplacian.py",
+        "engine/holonomy.py",
+        "engine/physics.py"
+      ],
+      "invariants": [
+        "no UI imports",
+        "no world logic",
+        "no runtime code",
+        "trace-class-1 normalization",
+        "reversibility",
+        "holonomy purity"
+      ]
+    },
+    "phase_C_hybrid_uplift": {
+      "description": "Expand the engine with runtime, world topology, reversible quests, and documentation.",
+      "files": [
+        "world/topology.json",
+        "world/zones.py",
+        "world/factions.py",
+        "world/monsters.py",
+        "runtime/server.py",
+        "runtime/client.py",
+        "quests/reversible.py",
+        "ui/glyphs.md",
+        "docs/architecture.md",
+        "docs/provenance.md",
+        "README.md"
+      ],
+      "invariants": [
+        "consume Phase-A physics",
+        "do not modify Phase-A physics",
+        "modular world logic",
+        "holonomy semantics preserved",
+        "operator reversibility preserved"
+      ]
+    }
+  }
+}
