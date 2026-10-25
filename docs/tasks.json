@@ -224,7 +224,20 @@
   "category": "docs",
   "wave": "D"
 },
-      
+{
+  "task": "Appendix A — Mathematical Foundations",
+  "file": "docs/preprint/appendix-math.tex",
+  "status": "completed",
+  "wave": "D",
+  "category": "docs",
+  "commit": "📘 docs: add Appendix A — Mathematical Foundations (Phase‑D Appendix Scaffold)",
+  "notes": [
+    "Full TeX artifact generated",
+    "Altitude-separated structure established",
+    "Definition, theorem, and proof environments scaffolded",
+    "Ready for later population once all appendices exist"
+  ]
+},
       }
     ]
   }
