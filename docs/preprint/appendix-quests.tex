@@ -1,0 +1,168 @@
+\appendix
+\section*{Appendix E — Reversible Quest Algebra}
+\addcontentsline{toc}{section}{Appendix E — Reversible Quest Algebra}
+
+\section{Quest Path Framework}
+
+\subsection{Operator Paths}
+A reversible quest is represented as an operator path
+\[
+\gamma = (O_1, O_2, \ldots, O_n),
+\]
+where each $O_i$ is a reversible operator acting on the state space
+$\mathcal{S}$.
+
+\subsection{Forward Traversal}
+Forward traversal applies operators in sequence:
+\[
+\gamma(s) = O_n(\cdots O_2(O_1(s))\cdots).
+\]
+
+\subsection{Reverse Traversal}
+Reverse traversal applies inverses in reverse order:
+\[
+\gamma^{-1}(s)
+    = O_1^{-1}(O_2^{-1}(\cdots O_n^{-1}(s)\cdots)).
+\]
+
+\section{Reversibility and Geometry}
+
+\subsection{State Reversibility}
+For any state $s$,
+\[
+\gamma^{-1}(\gamma(s)) = s.
+\]
+State reversibility is guaranteed by operator inverses.
+
+\subsection{Geometric Irreversibility}
+Curvature and frame shifts do not reverse:
+\[
+F' = \mathrm{Hol}(\gamma)(F),
+\qquad
+F'' = \mathrm{Hol}(\gamma^{-1})(F'),
+\]
+and in general $F'' \neq F$.
+
+\section{Curvature Accumulation}
+
+\subsection{Holonomy Contributions}
+Curvature arises from operator non–commutativity:
+\[
+H_{ij} = [O_i, O_j]
+       = O_j \circ O_i - O_i \circ O_j.
+\]
+
+\subsection{Path Curvature}
+Total curvature accumulated along a quest path is
+\[
+K(\gamma) = \sum_{i < j} H_{ij}.
+\]
+
+\subsection{Quest Energy}
+Define quest energy as
+\[
+E(\gamma) = \|K(\gamma)\|.
+\]
+
+\section{Definitions}
+
+\begin{definition}[Reversible Quest]
+A reversible quest is an operator path whose forward and reverse
+traversals restore the original state.
+\end{definition}
+
+\begin{definition}[Quest Curvature]
+Quest curvature is the accumulated holonomy contribution
+\[
+K(\gamma) = \sum_{i < j} H_{ij}.
+\]
+\end{definition}
+
+\begin{definition}[Quest Energy]
+Quest energy is the norm of the curvature tensor:
+\[
+E(\gamma) = \|K(\gamma)\|.
+\]
+\end{definition}
+
+\begin{definition}[Quest Composition]
+Two quests compose as
+\[
+\gamma_2 \circ \gamma_1
+    = (O_1, \ldots, O_m, O_{m+1}, \ldots, O_n).
+\]
+\end{definition}
+
+\section{Theorems}
+
+\begin{theorem}[State Reversibility]
+For any quest path $\gamma$ and state $s$,
+\[
+\gamma^{-1}(\gamma(s)) = s.
+\]
+\end{theorem}
+
+\begin{proof}
+Each operator $O_i$ has an inverse $O_i^{-1}$ satisfying
+$O_i^{-1}(O_i(s)) = s$. Applying inverses in reverse order restores the
+original state.
+\end{proof}
+
+\begin{theorem}[Curvature Non-Reversibility]
+Curvature does not reverse under path inversion:
+\[
+K(\gamma^{-1}) \neq -K(\gamma).
+\]
+\end{theorem}
+
+\begin{proof}
+Curvature depends on commutators $[O_i, O_j]$. Reversing the path changes
+operator order but does not negate commutators. Thus curvature accumulates
+independently of state reversibility.
+\end{proof}
+
+\begin{theorem}[Additivity of Curvature]
+For paths $\gamma_1$ and $\gamma_2$,
+\[
+K(\gamma_2 \circ \gamma_1)
+    = K(\gamma_1) + K(\gamma_2).
+\]
+\end{theorem}
+
+\begin{proof}
+Curvature is defined as a sum over operator pairs. Concatenating paths
+adds new operator pairs, producing additive curvature.
+\end{proof}
+
+\section{Interaction with Spectral Ecology}
+
+\subsection{Curvature-Induced Laplacian Warp}
+Curvature modifies adjacency weights:
+\[
+w_{ij}' = w_{ij} + H_{ij},
+\]
+producing a warped Laplacian
+\[
+L' = D' - W'.
+\]
+
+\subsection{Spectral Drift}
+Warping the Laplacian produces spectral drift:
+\[
+(\lambda_k, u_k) \mapsto (\lambda_k', u_k').
+\]
+
+\subsection{Ecological Consequences}
+Quest curvature induces:
+\begin{itemize}
+    \item monster-family evolution,
+    \item faction-biased ecological zones,
+    \item narrative-tension propagation,
+    \item curvature-sensitive rare species.
+\end{itemize}
+
+\section{Discussion}
+This appendix formalizes reversible quest algebra, including operator
+paths, curvature accumulation, geometric irreversibility, and spectral
+interaction. These structures integrate with holonomy curvature,
+Laplacian geometry, and spectral ecology in the main preprint.
