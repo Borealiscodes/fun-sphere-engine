@@ -203,6 +203,13 @@
   "category": "math",
   "wave": "D"
 },
+{
+  "file": "math/spine/spectral-ecology.md",
+  "status": "done",
+  "commit": "📘 math: add Spectral Ecology Spine (Phase‑D Module 4)",
+  "category": "math",
+  "wave": "D"
+},
       }
     ]
   }
