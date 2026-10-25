@@ -118,7 +118,14 @@
   "commit": "🧪 tests: add ND state invariance tests (Wave‑T File #1)",
   "category": "tests",
   "wave": "T"
-}
+},
+{
+  "file": "tests/test_operators.py",
+  "status": "done",
+  "commit": "🧪 tests: add reversible operator invariance tests (Wave‑T File #2)",
+  "category": "tests",
+  "wave": "T"
+},
       }
     ]
   }
