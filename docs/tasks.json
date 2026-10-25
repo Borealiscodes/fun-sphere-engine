@@ -182,6 +182,13 @@
   "category": "docs",
   "wave": "C"
 },
+{
+  "file": "math/spine/operators.md",
+  "status": "done",
+  "commit": "📘 math: add Operator Spine (Phase‑D Module 1)",
+  "category": "math",
+  "wave": "D"
+},
       
       }
     ]
