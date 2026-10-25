@@ -132,7 +132,14 @@
   "commit": "🧪 tests: add holonomy curvature loop invariance tests (Wave‑T File #4)",
   "category": "tests",
   "wave": "T"
-},9
+},
+{
+  "file": "tests/test_world_topology.py",
+  "status": "done",
+  "commit": "🧪 tests: add world topology, faction bias, and spectral ecology invariance tests (Wave‑T File #5)",
+  "category": "tests",
+  "wave": "T"
+},
       }
     ]
   }
