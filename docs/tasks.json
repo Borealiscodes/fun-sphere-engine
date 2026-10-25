@@ -140,6 +140,13 @@
   "category": "tests",
   "wave": "T"
 },
+{
+  "file": "tests/test_runtime_server.py",
+  "status": "done",
+  "commit": "🧪 tests: add runtime server snapshot invariance tests (Wave‑T File #6)",
+  "category": "tests",
+  "wave": "T"
+},
       }
     ]
   }
