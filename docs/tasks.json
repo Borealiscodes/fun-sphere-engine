@@ -77,6 +77,13 @@
   "category": "documentation",
   "wave": "C"
       },
+  {
+  "file": "ui/layout.md",
+  "status": "done",
+  "commit": "📁 docs: add neutral UI layout placeholder (Wave‑C File #9)",
+  "category": "documentation",
+  "wave": "C"
+  },
       {
         "file": "docs/provenance.md",
         "status": "pending",
