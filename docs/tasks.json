@@ -147,6 +147,13 @@
   "category": "tests",
   "wave": "T"
 },
+{
+  "file": "tests/test_runtime_client.py",
+  "status": "done",
+  "commit": "🧪 tests: add runtime client mirror consistency tests (Wave‑T File #7)",
+  "category": "tests",
+  "wave": "T"
+},
       }
     ]
   }
