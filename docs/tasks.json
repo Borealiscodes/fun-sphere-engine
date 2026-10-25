@@ -59,9 +59,9 @@
   "commit": "📱 feat: add runtime client scaffold (Wave‑C File #6)"
       },
       {
-        "file": "quests/reversible.py",
-        "status": "pending",
-        "commit": null
+  "file": "quests/reversible.py",
+  "status": "done",
+  "commit": "🌀 feat: add reversible quest scaffold (Wave‑C File #7)"
       },
       {
         "file": "ui/glyphs.md",
