@@ -74,6 +74,7 @@ Quests are operator paths with invertible outcomes.
 Glyphs, fog shaders, vibration profiles, and lightweight telemetry.
 
 ---
+<pre> 
 
 📦 Repository Structure
 
@@ -88,7 +89,7 @@ fun-sphere-engine/
 ├── tests/           # invariance + holonomy tests
 └── docs/            # preprint + architecture
 `
-
+</pre>
 ---
 
 🚀 Getting Started
