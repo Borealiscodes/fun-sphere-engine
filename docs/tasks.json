@@ -254,6 +254,14 @@
   "category": "docs",
   "commit": "📘 docs: add Appendix C — Holonomy & Curvature (Phase‑D Appendix Scaffold)"
 },
+{
+  "task": "Appendix D — Spectral Ecology",
+  "file": "docs/preprint/appendix-spectral.tex",
+  "status": "completed",
+  "wave": "D",
+  "category": "docs",
+  "commit": "📘 docs: add Appendix D — Spectral Ecology (Phase‑D Appendix Scaffold)"
+},
       }
     ]
   }
