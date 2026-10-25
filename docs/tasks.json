@@ -7,9 +7,9 @@
   "commit": "✨ feat: add ND manifold state vector module (Wave‑A File #1)"
       },
       {
-        "file": "engine/operators.py",
-        "status": "pending",
-        "commit": null
+  "file": "engine/operators.py",
+  "status": "done",
+  "commit": "✨ feat: add reversible operator registry (Wave‑A File #2)"
       },
       {
         "file": "engine/laplacian.py",
