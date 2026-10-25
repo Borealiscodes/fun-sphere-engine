@@ -210,6 +210,13 @@
   "category": "math",
   "wave": "D"
 },
+{
+  "file": "math/spine/reversible-quests.md",
+  "status": "done",
+  "commit": "📘 math: add Reversible Quest Spine (Phase‑D Module 5)",
+  "category": "math",
+  "wave": "D"
+},
       }
     ]
   }
