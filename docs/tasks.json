@@ -64,9 +64,11 @@
   "commit": "🌀 feat: add reversible quest scaffold (Wave‑C File #7)"
       },
       {
-        "file": "ui/glyphs.md",
-        "status": "pending",
-        "commit": null
+  "file": "docs/developer-notes/ui-glyph-boundary.md",
+  "status": "done",
+  "commit": "📝 docs: add Developer Note clarifying UI glyph boundary and downstream responsibilities",
+  "category": "governance",
+  "wave": "none"
       },
       {
         "file": "docs/architecture.md",
