@@ -1,0 +1,152 @@
+\appendix
+\section*{Appendix D — Spectral Ecology}
+\addcontentsline{toc}{section}{Appendix D — Spectral Ecology}
+
+\section{Spectral Framework}
+
+\subsection{Laplacian Definition}
+The spectral ecology layer is built on the discrete Laplacian
+\[
+L = D - W,
+\]
+where $D$ is the degree matrix and $W$ is the curvature-aware adjacency
+matrix. The Laplacian is symmetric and positive semi-definite.
+
+\subsection{Eigenstructure}
+The Laplacian admits eigenpairs
+\[
+L u_k = \lambda_k u_k,
+\]
+where $u_k$ is the $k$-th eigenvector and $\lambda_k$ the corresponding
+eigenvalue.
+
+\subsection{Ecological Interpretation}
+Eigenvectors represent monster families:
+\[
+\text{MonsterFamily}_k = u_k,
+\]
+and eigenvalues represent ecological energy levels:
+\[
+\text{EnergyLevel}_k = \lambda_k.
+\]
+
+\section{Curvature-Induced Spectral Drift}
+
+\subsection{Curvature Modification}
+Holonomy curvature modifies adjacency weights:
+\[
+w_{ij}' = w_{ij} + H_{ij},
+\]
+producing a warped Laplacian
+\[
+L' = D' - W'.
+\]
+
+\subsection{Eigenvalue Drift}
+Perturbation of the Laplacian produces spectral drift:
+\[
+\lambda_k' = \lambda_k + \delta \lambda_k.
+\]
+
+\subsection{Eigenvector Drift}
+Eigenvectors shift under curvature:
+\[
+u_k' = u_k + \delta u_k.
+\]
+
+\section{Definitions}
+
+\begin{definition}[Spectral Ecology]
+Spectral ecology is the study of how eigenvectors and eigenvalues of the
+Laplacian encode monster families and ecological energy levels.
+\end{definition}
+
+\begin{definition}[Spectral Drift]
+Spectral drift is the change in eigenstructure induced by curvature:
+\[
+(\lambda_k, u_k) \mapsto (\lambda_k', u_k').
+\]
+\end{definition}
+
+\begin{definition}[Ecological Stability]
+A monster family is stable if
+\[
+\|u_k' - u_k\| \le \epsilon
+\]
+for small curvature perturbations $\epsilon$.
+\end{definition}
+
+\begin{definition}[Energy Level]
+The ecological energy level of a monster family is given by its
+eigenvalue $\lambda_k$.
+\end{definition}
+
+\section{Theorems}
+
+\begin{theorem}[Spectral Stability Under Small Perturbations]
+Let $L' = L + \epsilon K$ for small $\epsilon$. Then
+\[
+|\lambda_k' - \lambda_k| \le \epsilon \|K\|.
+\]
+\end{theorem}
+
+\begin{proof}
+By classical perturbation theory for symmetric matrices,
+\[
+\lambda_k' = \lambda_k + u_k^\top (\epsilon K) u_k + O(\epsilon^2),
+\]
+so the deviation is bounded by $\epsilon \|K\|$.
+\end{proof}
+
+\begin{theorem}[Eigenvector Stability]
+For small curvature perturbations,
+\[
+\|u_k' - u_k\| \le \epsilon C,
+\]
+for some constant $C$ depending on spectral gaps.
+\end{theorem}
+
+\begin{proof}
+Eigenvector perturbation bounds follow from Davis–Kahan theory:
+\[
+\|u_k' - u_k\|
+    \le \frac{\epsilon \|K\|}{\min_{j \neq k} |\lambda_k - \lambda_j|}.
+\]
+\end{proof}
+
+\begin{theorem}[Curvature Causes Ecological Evolution]
+If curvature is non-zero, then at least one eigenpair changes:
+\[
+(\lambda_k', u_k') \neq (\lambda_k, u_k).
+\]
+\end{theorem}
+
+\begin{proof}
+Curvature modifies adjacency weights, so $L' \neq L$. Since the Laplacian
+is symmetric, any non-zero perturbation changes at least one eigenpair.
+\end{proof}
+
+\section{Spectral–Laplacian Interaction}
+
+\subsection{Warped Laplacian}
+Curvature produces a warped Laplacian
+\[
+L' = D' - W',
+\]
+which shifts spectral ecology.
+
+\subsection{Ecological Consequences}
+Spectral drift produces:
+\begin{itemize}
+    \item monster-family evolution,
+    \item faction-biased ecological zones,
+    \item narrative-tension propagation,
+    \item curvature-sensitive rare species.
+\end{itemize}
+
+\section{Discussion}
+This appendix formalizes the spectral ecology layer, including
+eigenstructure interpretation, curvature-induced drift, stability
+analysis, and ecological consequences. These structures integrate with
+holonomy curvature, Laplacian geometry, and reversible quest dynamics in
+the main preprint.
