@@ -54,9 +54,9 @@
   "commit": "🖥️ feat: add runtime server scaffold (Wave‑C File #5)"
       },
       {
-        "file": "runtime/client.py",
-        "status": "pending",
-        "commit": null
+  "file": "runtime/client.py",
+  "status": "done",
+  "commit": "📱 feat: add runtime client scaffold (Wave‑C File #6)"
       },
       {
         "file": "quests/reversible.py",
