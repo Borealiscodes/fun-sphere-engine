@@ -71,9 +71,11 @@
   "wave": "none"
       },
       {
-        "file": "docs/architecture.md",
-        "status": "pending",
-        "commit": null
+  "file": "ui/glyphs.md",
+  "status": "done",
+  "commit": "📁 docs: add neutral UI glyph placeholder (Wave‑C File #8)",
+  "category": "documentation",
+  "wave": "C"
       },
       {
         "file": "docs/provenance.md",
