@@ -22,10 +22,10 @@
   "commit": "✨ feat: add holonomy detector (Wave‑A File #4)"
       },
       {
-        "file": "engine/physics.py",
-        "status": "pending",
-        "commit": null
-      }
+  "file": "engine/physics.py",
+  "status": "done",
+  "commit": "✨ feat: add reversible physics engine (Wave‑A File #5)"
+      },
     ],
     "wave_C": [
       {
