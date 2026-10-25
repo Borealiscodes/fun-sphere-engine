@@ -175,7 +175,13 @@
   "category": "docs",
   "wave": "C"
 },
-      
+{
+  "file": "docs/roadmap/roadmap-v2.0.md",
+  "status": "done",
+  "commit": "📘 docs: add Roadmap v2.0 (Phase‑D transition document)",
+  "category": "docs",
+  "wave": "C"
+},
       
       }
     ]
