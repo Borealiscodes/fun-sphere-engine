@@ -1,0 +1,143 @@
+\appendix
+\section*{Appendix B — Operator Algebra}
+\addcontentsline{toc}{section}{Appendix B — Operator Algebra}
+
+\section{Operator Framework}
+
+\subsection{Reversible Operators}
+Operators are reversible transformations
+\[
+O : \mathcal{S} \rightarrow \mathcal{S},
+\qquad
+O^{-1} \text{ exists},
+\]
+acting on the Fun–Sphere state space $\mathcal{S}$. Reversibility ensures
+\[
+O^{-1}(O(s)) = s
+\]
+for all states $s \in \mathcal{S}$.
+
+\subsection{Composition}
+Operators compose via
+\[
+O_j \circ O_i : \mathcal{S} \rightarrow \mathcal{S},
+\]
+with identity operator $I$ satisfying
+\[
+I(s) = s.
+\]
+
+\subsection{Commutation}
+Two operators commute if
+\[
+O_j \circ O_i = O_i \circ O_j.
+\]
+Non–commutativity is the source of holonomy curvature.
+
+\section{Algebraic Structures}
+
+\subsection{Operator Group}
+The set of reversible operators forms a group:
+\begin{itemize}
+    \item identity $I$,
+    \item inverses $O^{-1}$,
+    \item closure under composition,
+    \item associativity.
+\end{itemize}
+
+\subsection{Operator Path}
+A path is a finite sequence
+\[
+\gamma = (O_1, O_2, \ldots, O_n),
+\]
+representing a reversible quest.
+
+\subsection{Operator Groupoid}
+Paths form a groupoid:
+\begin{itemize}
+    \item identity path,
+    \item inverse path $\gamma^{-1}$,
+    \item partial composition,
+    \item curvature accumulation.
+\end{itemize}
+
+\section{Definitions}
+
+\begin{definition}[Operator Path]
+A path $\gamma$ is an ordered sequence of reversible operators acting on
+the state space.
+\end{definition}
+
+\begin{definition}[Forward Traversal]
+Forward traversal applies operators in sequence:
+\[
+\gamma(s) = O_n(\cdots O_2(O_1(s))\cdots).
+\]
+\end{definition}
+
+\begin{definition}[Reverse Traversal]
+Reverse traversal applies inverses in reverse order:
+\[
+\gamma^{-1}(s) = O_1^{-1}(O_2^{-1}(\cdots O_n^{-1}(s)\cdots)).
+\]
+\end{definition}
+
+\begin{definition}[Commutator]
+The commutator of two operators is
+\[
+[O_i, O_j] = O_j \circ O_i - O_i \circ O_j.
+\]
+\end{definition}
+
+\begin{definition}[Holonomy Contribution]
+The holonomy curvature contribution is
+\[
+\Delta_{\mathrm{hol}}(O_i, O_j) = [O_i, O_j].
+\]
+\end{definition}
+
+\section{Theorems}
+
+\begin{theorem}[Reversibility]
+For any operator path $\gamma$ and state $s$,
+\[
+\gamma^{-1}(\gamma(s)) = s.
+\]
+\end{theorem}
+
+\begin{proof}
+Each operator $O_i$ has an inverse $O_i^{-1}$ satisfying
+$O_i^{-1}(O_i(s)) = s$. Applying inverses in reverse order restores the
+original state.
+\end{proof}
+
+\begin{theorem}[Curvature from Non–Commutativity]
+Curvature is zero if and only if all operators commute.
+\end{theorem}
+
+\begin{proof}
+Curvature is defined by the holonomy tensor
+\[
+H_{ij} = [O_i, O_j].
+\]
+If operators commute, $[O_i, O_j] = 0$ for all pairs, so curvature is
+zero. If any pair fails to commute, curvature is non–zero.
+\end{proof}
+
+\begin{theorem}[Path Curvature Accumulation]
+For a path $\gamma = (O_1, \ldots, O_n)$,
+\[
+K(\gamma) = \sum_{i < j} [O_i, O_j].
+\]
+\end{theorem}
+
+\begin{proof}
+Curvature accumulates pairwise along the path. The sum over all ordered
+pairs yields total curvature.
+\end{proof}
+
+\section{Discussion}
+This appendix establishes the algebraic foundation for reversible
+operators, operator paths, commutation relations, and holonomy curvature.
+These structures support the geometric and spectral modules presented in
+the main preprint and subsequent appendices.
