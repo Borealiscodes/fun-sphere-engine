@@ -17,9 +17,9 @@
   "commit": "✨ feat: add ND Laplacian builder (Wave‑A File #3)"
       },
       {
-        "file": "engine/holonomy.py",
-        "status": "pending",
-        "commit": null
+  "file": "engine/holonomy.py",
+  "status": "done",
+  "commit": "✨ feat: add holonomy detector (Wave‑A File #4)"
       },
       {
         "file": "engine/physics.py",
