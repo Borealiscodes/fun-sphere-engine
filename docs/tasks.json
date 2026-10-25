@@ -12,9 +12,9 @@
   "commit": "✨ feat: add reversible operator registry (Wave‑A File #2)"
       },
       {
-        "file": "engine/laplacian.py",
-        "status": "pending",
-        "commit": null
+  "file": "engine/laplacian.py",
+  "status": "done",
+  "commit": "✨ feat: add ND Laplacian builder (Wave‑A File #3)"
       },
       {
         "file": "engine/holonomy.py",
