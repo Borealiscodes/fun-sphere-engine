@@ -84,6 +84,13 @@
   "category": "documentation",
   "wave": "C"
   },
+{
+  "file": "ui/theme.md",
+  "status": "done",
+  "commit": "🎨 docs: add neutral UI theme placeholder (Wave‑C File #10)",
+  "category": "documentation",
+  "wave": "C"
+},
       {
         "file": "docs/provenance.md",
         "status": "pending",
