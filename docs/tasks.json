@@ -1,0 +1,88 @@
+{
+  "fun_sphere_engine_tasks": {
+    "wave_A": [
+      {
+        "file": "engine/state.py",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "engine/operators.py",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "engine/laplacian.py",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "engine/holonomy.py",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "engine/physics.py",
+        "status": "pending",
+        "commit": null
+      }
+    ],
+    "wave_C": [
+      {
+        "file": "world/topology.json",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "world/zones.py",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "world/factions.py",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "world/monsters.py",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "runtime/server.py",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "runtime/client.py",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "quests/reversible.py",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "ui/glyphs.md",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "docs/architecture.md",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "docs/provenance.md",
+        "status": "pending",
+        "commit": null
+      },
+      {
+        "file": "README.md",
+        "status": "pending",
+        "commit": null
+      }
+    ]
+  }
+}
