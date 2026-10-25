@@ -1,0 +1,137 @@
+\appendix
+\section*{Appendix C — Holonomy and Curvature}
+\addcontentsline{toc}{section}{Appendix C — Holonomy and Curvature}
+
+\section{Holonomy Framework}
+
+\subsection{Operator-Induced Frame Shifts}
+Holonomy measures the frame shift produced by traversing a closed
+operator loop. For a loop $\gamma = (O_1, \ldots, O_n)$ with
+$\gamma(s_0) = s_0$, the holonomy transformation is
+\[
+\mathrm{Hol}(\gamma) = O_n \circ \cdots \circ O_1,
+\]
+acting on the local frame $F$ rather than the state $s$.
+
+\subsection{Holonomy Action on Frames}
+The transformed frame is
+\[
+F' = \mathrm{Hol}(\gamma)(F).
+\]
+If $F' = F$, curvature is zero. If $F' \neq F$, curvature is present.
+
+\section{Curvature from Non-Commutativity}
+
+\subsection{Commutators}
+Curvature arises from operator non–commutativity. For operators
+$O_i, O_j$,
+\[
+[O_i, O_j] = O_j \circ O_i - O_i \circ O_j.
+\]
+
+\subsection{Holonomy Tensor}
+The holonomy tensor is defined by
+\[
+H_{ij} = [O_i, O_j],
+\]
+and encodes curvature contributions from operator pairs.
+
+\subsection{Curvature Accumulation}
+For a path $\gamma = (O_1, \ldots, O_n)$,
+\[
+K(\gamma) = \sum_{i < j} H_{ij},
+\]
+representing total curvature accumulated along the path.
+
+\section{Definitions}
+
+\begin{definition}[Holonomy]
+Holonomy is the frame transformation induced by traversing a closed
+operator loop.
+\end{definition}
+
+\begin{definition}[Curvature Tensor]
+The curvature tensor $H$ is defined by
+\[
+H_{ij} = [O_i, O_j],
+\]
+and measures deviation from commutativity.
+\end{definition}
+
+\begin{definition}[Path Curvature]
+Path curvature is the accumulated holonomy contribution
+\[
+K(\gamma) = \sum_{i < j} H_{ij}.
+\]
+\end{definition}
+
+\begin{definition}[Flat Region]
+A region is flat if all operators commute, i.e.,
+\[
+[O_i, O_j] = 0.
+\]
+\end{definition}
+
+\section{Theorems}
+
+\begin{theorem}[Zero Curvature iff Commutativity]
+Curvature is zero if and only if all operators commute.
+\end{theorem}
+
+\begin{proof}
+Curvature is defined by $H_{ij} = [O_i, O_j]$. If operators commute,
+$[O_i, O_j] = 0$ for all pairs, so curvature is zero. Conversely, if any
+pair fails to commute, curvature is non–zero.
+\end{proof}
+
+\begin{theorem}[Holonomy Non-Reversibility]
+Holonomy does not reverse under path inversion:
+\[
+\mathrm{Hol}(\gamma^{-1}) \neq \mathrm{Hol}(\gamma)^{-1}.
+\]
+\end{theorem}
+
+\begin{proof}
+Holonomy acts on frames, not states. Although
+$\gamma^{-1}(\gamma(s)) = s$, the frame satisfies
+\[
+F' = \mathrm{Hol}(\gamma)(F),
+\qquad
+F'' = \mathrm{Hol}(\gamma^{-1})(F'),
+\]
+and in general $F'' \neq F$ because curvature accumulates independently
+of state reversibility.
+\end{proof}
+
+\begin{theorem}[Curvature Accumulation is Path-Dependent]
+For paths $\gamma_1$ and $\gamma_2$,
+\[
+K(\gamma_2 \circ \gamma_1) = K(\gamma_1) + K(\gamma_2).
+\]
+\end{theorem}
+
+\begin{proof}
+Curvature is defined as a sum over operator pairs. Concatenating paths
+adds new operator pairs, producing additive curvature.
+\end{proof}
+
+\section{Holonomy and Laplacian Interaction}
+
+\subsection{Curvature-Induced Weight Modification}
+Curvature modifies adjacency weights:
+\[
+w_{ij}' = w_{ij} + H_{ij}.
+\]
+
+\subsection{Laplacian Warp}
+The Laplacian becomes
+\[
+L' = D' - W',
+\]
+producing spectral drift in eigenvalues and eigenvectors.
+
+\section{Discussion}
+This appendix formalizes holonomy, curvature tensors, commutators,
+curvature accumulation, and their interaction with Laplacian geometry.
+These structures form the geometric backbone of narrative physics,
+spectral ecology, and reversible quest dynamics.
