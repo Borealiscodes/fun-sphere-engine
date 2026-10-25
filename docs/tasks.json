@@ -98,15 +98,20 @@
   "category": "documentation",
   "wave": "C"
 },
+{
+  "file": "docs/provenance.md",
+  "status": "done",
+  "commit": "🧬 docs: add dual provenance artifact sealing Wave‑A and Wave‑C",
+  "category": "governance",
+  "wave": "A+C"
+},
       {
-        "file": "docs/provenance.md",
-        "status": "pending",
-        "commit": null
+  "file": "README.md",
+  "status": "done",
+  "commit": "📝 docs: update README.md to align with dual provenance and Wave‑A/Wave‑C population",
+  "category": "documentation",
+  "wave": "A+C"
       },
-      {
-        "file": "README.md",
-        "status": "pending",
-        "commit": null
       }
     ]
   }
