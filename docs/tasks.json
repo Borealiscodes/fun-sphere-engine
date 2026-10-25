@@ -39,14 +39,14 @@
   "commit": "🌐 feat: add holonomy-aware zone registry (Wave‑C File #2)"
       },
       {
-        "file": "world/factions.py",
-        "status": "pending",
-        "commit": null
+  "file": "world/factions.py",
+  "status": "done",
+  "commit": "⚔️ feat: add faction registry (Wave‑C File #3)"
       },
       {
-        "file": "world/monsters.py",
-        "status": "pending",
-        "commit": null
+  "file": "world/monsters.py",
+  "status": "done",
+  "commit": "👾 feat: add spectral monster registry (Wave‑C File #4)"
       },
       {
         "file": "runtime/server.py",
