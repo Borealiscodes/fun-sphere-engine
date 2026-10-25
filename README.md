@@ -1,16 +1,4 @@
-Borealis, absolutely — here is a fresh, clean, punchy README with emojis and color tiles, tuned for the Fun‑Sphere Engine repo you’re about to create.  
-It’s structured, professional, and still fun — exactly your vibe.
-
-I’m giving you two versions:
-
-1. Full README.md (with emojis + color tiles)  
-2. Compact README.md (if GitHub’s preview needs tighter formatting)
-
-Both are drop‑in ready.
-
----
-
-🌈 Fun‑Sphere Engine — README.md (Full Version)
+# 🌈 Fun‑Sphere Engine — README.md (Full Version)
 
 markdown
 
