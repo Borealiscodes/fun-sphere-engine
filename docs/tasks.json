@@ -196,7 +196,13 @@
   "category": "math",
   "wave": "D"
 },
-      
+{
+  "file": "math/spine/holonomy.md",
+  "status": "done",
+  "commit": "📘 math: add Holonomy Spine (Phase‑D Module 3)",
+  "category": "math",
+  "wave": "D"
+},
       }
     ]
   }
