@@ -1,0 +1,80 @@
+{
+  "version": "2.0",
+  "phase": "D",
+  "title": "Fun-Sphere Engine Roadmap v2.0",
+  "overview": {
+    "transition": "Phase-C to Phase-D",
+    "purpose": "Define mathematical spine, verification layer, and preprint deliverables."
+  },
+  "layers": {
+    "A": "Substrate geometry",
+    "B": "Operator physics",
+    "C": "World, runtime, narrative physics",
+    "D": "Mathematical spine + formal verification"
+  },
+  "objectives": {
+    "mathematical_spine": [
+      "Formal operator definitions",
+      "Laplacian modules",
+      "Holonomy modules",
+      "Spectral ecology modules",
+      "Reversible quest algebra"
+    ],
+    "verification_layer": [
+      "Formal invariants",
+      "Proof sketches",
+      "Operator commutation tables",
+      "Holonomy curvature derivations",
+      "Spectral stability proofs"
+    ],
+    "preprint": [
+      "preprint.md",
+      "preprint.bib",
+      "appendix-math.tex",
+      "appendix-operators.tex",
+      "appendix-holonomy.tex",
+      "appendix-spectral.tex",
+      "appendix-quests.tex"
+    ]
+  },
+  "deliverables": {
+    "spine_modules": [
+      "math/spine/operators.md",
+      "math/spine/laplacian.md",
+      "math/spine/holonomy.md",
+      "math/spine/spectral-ecology.md",
+      "math/spine/reversible-quests.md"
+    ],
+    "appendices": [
+      "docs/preprint/appendix-math.tex",
+      "docs/preprint/appendix-operators.tex",
+      "docs/preprint/appendix-holonomy.tex",
+      "docs/preprint/appendix-spectral.tex",
+      "docs/preprint/appendix-quests.tex"
+    ],
+    "preprint": [
+      "docs/preprint/preprint.md",
+      "docs/preprint/preprint.bib"
+    ]
+  },
+  "workflow": {
+    "steps": [
+      "Populate operator spine",
+      "Populate Laplacian spine",
+      "Populate holonomy spine",
+      "Populate spectral ecology spine",
+      "Populate reversible quest spine",
+      "Assemble preprint"
+    ]
+  },
+  "milestones": {
+    "A": "Operator spine complete",
+    "B": "Laplacian spine complete",
+    "C": "Holonomy spine complete",
+    "D": "Spectral ecology spine complete",
+    "E": "Reversible quest spine complete",
+    "F": "Preprint draft complete",
+    "G": "Preprint finalized"
+  },
+  "status": "active"
+}
