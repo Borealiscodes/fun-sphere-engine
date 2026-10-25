@@ -1,0 +1,13 @@
+{
+  "fun_sphere_topology": {
+    "version": "1.0",
+    "description": "Base world topology scaffold for the Fun‑Sphere Engine.",
+    "nodes": [],
+    "edges": [],
+    "metadata": {
+      "generated": "2026-10-25",
+      "author": "Borealis S. Hedling",
+      "notes": "Topology will be populated with holonomy-aware zones in subsequent Wave-C files."
+    }
+  }
+}
