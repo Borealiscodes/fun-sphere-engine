@@ -189,6 +189,13 @@
   "category": "math",
   "wave": "D"
 },
+{
+  "file": "math/spine/laplacian.md",
+  "status": "done",
+  "commit": "📘 math: add Laplacian Spine (Phase‑D Module 2)",
+  "category": "math",
+  "wave": "D"
+},
       
       }
     ]
