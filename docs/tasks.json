@@ -154,6 +154,14 @@
   "category": "tests",
   "wave": "T"
 },
+{
+  "file": "tests/test_reversible_quests.py",
+  "status": "done",
+  "commit": "🧪 tests: add reversible quest sequence invariance tests (Wave‑T File #8)",
+  "category": "tests",
+  "wave": "T"
+},
+
       }
     ]
   }
