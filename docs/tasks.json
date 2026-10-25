@@ -29,9 +29,9 @@
     ],
     "wave_C": [
       {
-        "file": "world/topology.json",
-        "status": "pending",
-        "commit": null
+  "file": "world/topology.json",
+  "status": "done",
+  "commit": "🗺️ feat: add base world topology scaffold (Wave‑C File #1)"
       },
       {
         "file": "world/zones.py",
