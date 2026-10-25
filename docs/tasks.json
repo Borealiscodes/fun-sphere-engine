@@ -49,9 +49,9 @@
   "commit": "👾 feat: add spectral monster registry (Wave‑C File #4)"
       },
       {
-        "file": "runtime/server.py",
-        "status": "pending",
-        "commit": null
+  "file": "runtime/server.py",
+  "status": "done",
+  "commit": "🖥️ feat: add runtime server scaffold (Wave‑C File #5)"
       },
       {
         "file": "runtime/client.py",
