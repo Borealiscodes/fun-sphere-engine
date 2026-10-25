@@ -112,6 +112,13 @@
   "category": "documentation",
   "wave": "A+C"
       },
+{
+  "file": "tests/test_state.py",
+  "status": "done",
+  "commit": "🧪 tests: add ND state invariance tests (Wave‑T File #1)",
+  "category": "tests",
+  "wave": "T"
+}
       }
     ]
   }
