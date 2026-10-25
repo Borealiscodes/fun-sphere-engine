@@ -91,6 +91,13 @@
   "category": "documentation",
   "wave": "C"
 },
+{
+  "file": "docs/architecture.md",
+  "status": "done",
+  "commit": "🏛️ docs: enhance architecture overview with color tiles and emojis (Wave‑C File #11)",
+  "category": "documentation",
+  "wave": "C"
+},
       {
         "file": "docs/provenance.md",
         "status": "pending",
