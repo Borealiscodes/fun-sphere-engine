@@ -161,7 +161,22 @@
   "category": "tests",
   "wave": "T"
 },
-
+{
+  "file": "docs/explainers/bill-nye-tile-explainer-wave-T.md",
+  "status": "done",
+  "commit": "📚 docs: add Bill Nye Tile Explainer for Wave‑T test suite",
+  "category": "docs",
+  "wave": "T"
+},
+{
+  "file": "docs/explainers/bill-nye-tile-explainer-full-engine.md",
+  "status": "done",
+  "commit": "📚 docs: add full-engine Bill Nye Tile Explainer (Fun‑Sphere overview)",
+  "category": "docs",
+  "wave": "C"
+},
+      
+      
       }
     ]
   }
