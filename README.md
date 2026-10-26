@@ -115,6 +115,7 @@ If you use Fun‑Sphere in research:
 Hedling, B. (2026). Fun‑Sphere: A Holonomy‑Induced Submanifold for Reversible Narrative Ecologies. Zenodo.  
 https://zenodo.org/records/23635844
 
+Hedling, B. S. (2026). Fun‑Sphere Engine: Geometric Foundations Preprint (v1.0) (Version v1.0). Zenodo. https://doi.org/10.5281/zenodo.23653405
 ---
 
 🧬 Provenance
