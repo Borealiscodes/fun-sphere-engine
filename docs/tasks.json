@@ -270,6 +270,14 @@
   "category": "docs",
   "commit": "📘 docs: add Appendix E — Reversible Quest Algebra (Phase‑D Appendix Scaffold)"
 },
+{
+  "task": "Citation Scaffold (APA Real Sources)",
+  "file": "docs/preprint/preprint.bib",
+  "status": "updated",
+  "wave": "D",
+  "category": "docs",
+  "commit": "📘 docs: replace placeholder citations with real APA-compliant BibTeX sources"
+},
       }
     ]
   }
