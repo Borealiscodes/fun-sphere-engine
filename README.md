@@ -1,23 +1,24 @@
 # 🌐 Fun‑Sphere Engine
-
 Holonomy‑Induced Narrative Manifold • Reversible Story Physics • Geometric AI
 
 ---
 
 🎨 Color Tiles Legend
-These tiles are documentation‑only and do not represent runtime glyphs.
+Documentation‑only tiles (not runtime glyphs):
 
 - 🟦 A‑Layer — Geometric substrate  
 - 🟩 B‑Layer — Structural physics  
 - 🟧 C‑Layer — World + runtime  
-- 🟪 D‑Layer — UI documentation (system‑agnostic)
+- 🟪 D‑Layer — UI documentation (system‑agnostic)  
+- 🟫 Phase‑D — Mathematical spine (preprint + appendices)
 
 ---
 
 ✨ Overview
 
-The Fun‑Sphere Engine is a geometric narrative engine built on reversible operator
-flow, holonomy‑induced curvature, and trace‑preserving world‑state physics.
+The Fun‑Sphere Engine is a geometric narrative engine built on reversible
+operator flow, holonomy‑induced curvature, and trace‑preserving world‑state
+physics.
 
 Instead of branching logic or scripted events, Fun‑Sphere treats narrative as  
 manifold traversal:
@@ -29,8 +30,14 @@ manifold traversal:
 - Monsters → spectral perturbations  
 - Quests → reversible operator sequences  
 
-This repository contains the geometric substrate, world topology,  
-reversible quest scaffolds, runtime stubs, and system‑agnostic UI documentation.
+This repository contains:
+
+- the geometric substrate (Wave‑A)  
+- world topology + spectral ecology scaffolds (Wave‑C)  
+- reversible quest compiler (Wave‑C)  
+- runtime stubs (Wave‑C)  
+- system‑agnostic UI documentation (Wave‑C)  
+- Phase‑D mathematical spine (complete) — preprint.md, appendices, glossary, references, provenance
 
 It does not contain rendering logic, glyphs, HUD routing, or Godot Mobile UI.
 
@@ -39,7 +46,7 @@ It does not contain rendering logic, glyphs, HUD routing, or Godot Mobile UI.
 🧠 Core Concepts
 
 🟦 Neutral Manifold
-A flat ND manifold with identity metric.  
+Flat ND manifold with identity metric.  
 All narrative evolution begins here.
 
 🟧 Holonomy Loops
@@ -51,7 +58,7 @@ Regions where holonomy is non‑trivial.
 These become zones, biomes, story pockets, or spectral wells.
 
 🟥 Safety Membrane
-A gradient‑based firewall preventing runaway instability.  
+Gradient‑based firewall preventing runaway instability.  
 If breached, the engine resets to equilibrium.
 
 ---
@@ -77,21 +84,33 @@ Quests are operator paths with invertible outcomes.
 🔹 System‑Agnostic UI Documentation
 Structural placeholders for future UI work (Fantasy Engine repo).
 
+🟫 Phase‑D: Mathematical Spine (Complete)
+The geometric foundations are now fully documented:
+
+- preprint.md  
+- Appendices A–E  
+- Glossary + overview  
+- Full references section  
+- Provenance clarification  
+
+This phase establishes the system‑agnostic geometric substrate for game engines and geometric AI research.
+
 ---
 
 📦 Repository Structure
 
 `
 <pre> 
-
+  
 fun-sphere-engine/
 │
-├── engine/          # geometric physics layer (Wave‑A)
-├── world/           # zones, factions, monsters (Wave‑C)
-├── quests/          # reversible narrative compiler (Wave‑C)
-├── runtime/         # server + client scaffolds (Wave‑C)
-├── ui/              # documentation-only placeholders (Wave‑C)
-└── docs/            # architecture, provenance, notes (Wave‑C)
+├── engine/            # geometric physics layer (Wave‑A)
+├── world/             # zones, factions, monsters (Wave‑C)
+├── quests/            # reversible narrative compiler (Wave‑C)
+├── runtime/           # server + client scaffolds (Wave‑C)
+├── ui/                # documentation-only placeholders (Wave‑C)
+├── docs/              # architecture, provenance, explainers, notes
+└── preprint/          # Phase‑D mathematical spine (preprint.md + appendices)
 `
 </pre>
 ---
@@ -115,37 +134,32 @@ If you use Fun‑Sphere in research:
 Hedling, B. (2026). Fun‑Sphere: A Holonomy‑Induced Submanifold for Reversible Narrative Ecologies. Zenodo.  
 https://zenodo.org/records/23635844
 
-Hedling, B. S. (2026). Fun‑Sphere Engine: Geometric Foundations Preprint (v1.0) (Version v1.0). Zenodo. https://doi.org/10.5281/zenodo.23653405
+Hedling, B. S. (2026). Fun‑Sphere Engine: Geometric Foundations Preprint (v1.0). Zenodo.  
+https://doi.org/10.5281/zenodo.23653405
+
 ---
 
 🧬 Provenance
 
 🟦 Wave‑A — Geometric Substrate
-Introduced ND state, reversible operators, Laplacian geometry, holonomy, and  
-structural physics primitives.
+Introduced ND state, reversible operators, Laplacian geometry, holonomy, and structural physics primitives.
 
 🟧 Wave‑C — World + Runtime + UI Documentation
-Introduced world containers, spectral ecology scaffolds, reversible quests,  
-runtime stubs, architecture overview, and UI documentation placeholders.
+Introduced world containers, spectral ecology scaffolds, reversible quests, runtime stubs, architecture overview, and UI documentation placeholders.
 
-Full provenance is documented in:
+🟫 Phase‑D — Mathematical Spine (Complete)
+Introduced the full geometric foundation:
 
-📄 docs/provenance.md
+- operator algebra  
+- holonomy + curvature  
+- Laplacian geometry  
+- spectral ecology  
+- quest‑path geometry  
+- appendices + glossary  
+- references + provenance  
 
----
-
-🧮 Phase‑D: Mathematical Spine (Upcoming)
-
-The next phase introduces:
-
-- math_spine/main.tex  
-- formal operator definitions  
-- Laplacian + holonomy modules  
-- world + runtime formalization  
-- bibliography scaffold  
-- preprint.md (public‑facing version)
-
-This phase will mathematically formalize the entire engine.
+Documented in:  
+📄 preprint/preprint.md
 
 ---
 
