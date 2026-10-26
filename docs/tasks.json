@@ -262,6 +262,14 @@
   "category": "docs",
   "commit": "📘 docs: add Appendix D — Spectral Ecology (Phase‑D Appendix Scaffold)"
 },
+{
+  "task": "Appendix E — Reversible Quest Algebra",
+  "file": "docs/preprint/appendix-quests.tex",
+  "status": "completed",
+  "wave": "D",
+  "category": "docs",
+  "commit": "📘 docs: add Appendix E — Reversible Quest Algebra (Phase‑D Appendix Scaffold)"
+},
       }
     ]
   }
